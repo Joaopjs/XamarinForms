@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="Aula_01_Consulta_CEP.MainPage">
+
+    <StackLayout BackgroundColor="#ffbf00" Padding="30" Spacing="30">
+
+        <Image x:Name="logo" Source="logo.png"/>
+        <Entry x:Name="TextBox" Placeholder="Digite o Cep" PlaceholderColor="#ffbf00" BackgroundColor="#ffffff"/>
+        <Button x:Name="Botao" Text="Buscar Cep" TextColor="#ffffff" BackgroundColor="#00416b"/>
+        
+        <Label Text="" 
+            x:Name="Resultado"               
+           HorizontalOptions="Center"
+           VerticalOptions="CenterAndExpand" />
+    </StackLayout>
+
+</ContentPage>
